@@ -1,14 +1,4 @@
----
-date: 2026-03-07
-tags:
-  - 代加工食材
-  - Tesla
-  - FSD
-type: 分析笔记
-status: 草稿
-source: 与Claude对话整理
-folder: 代加工食材
----
+
 
 # 🚗 FSD落地与权益市场重估：从Agent到物理层自动化
 
