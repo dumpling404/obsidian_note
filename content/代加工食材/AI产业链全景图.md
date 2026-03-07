@@ -15,7 +15,7 @@ graph TD
     style A fill:#FF6B35,color:#fff,stroke:#FF6B35
     style B fill:#F7C59F,color:#333,stroke:#F7C59F
     style C fill:#EFEFD0,color:#333,stroke:#ccc
-    style D fill:#004E89,color:#fff,stroke:#004E89
+    style D fill:#6b7a8d,color:#fff,stroke:#6b7a8d
 ```
 
 ---
@@ -138,7 +138,7 @@ graph LR
     style HW fill:#FF6B35,color:#fff
     style DC fill:#F7C59F,color:#333
     style Cloud fill:#FFD166,color:#333
-    style App fill:#004E89,color:#fff
+    style App fill:#6b7a8d,color:#fff,stroke:#6b7a8d
     style Money fill:#06D6A0,color:#fff
 ```
 
