@@ -1,27 +1,18 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-// ===== Mermaid 莫兰迪配色 =====
-.mermaid svg {
-  // Timeline 时期色块（taskWrapper）- 莫兰迪色轮换
-  g.taskWrapper:nth-of-type(6n+1) rect { fill: #c4a5a5 !important; stroke: none !important; }
-  g.taskWrapper:nth-of-type(6n+2) rect { fill: #5c5c5c !important; stroke: none !important; }
-  g.taskWrapper:nth-of-type(6n+3) rect { fill: #6b8f71 !important; stroke: none !important; }
-  g.taskWrapper:nth-of-type(6n+4) rect { fill: #b8b09a !important; stroke: none !important; }
-  g.taskWrapper:nth-of-type(6n+5) rect { fill: #a8b5a0 !important; stroke: none !important; }
-  g.taskWrapper:nth-of-type(6n+6) rect { fill: #c5c9a8 !important; stroke: none !important; }
+// ===== Mermaid 莫兰迪配色（通过CSS变量注入，全图通用）=====
+:root {
+  --light: #f0ebe3;
+  --secondary: #c4a5a5;
+  --tertiary: #6b8f71;
+  --highlight: #e8d5d5;
+  --darkgray: #4a4540;
+}
 
-  // Timeline 事件色块（eventWrapper）- 对应淡化版
-  g.eventWrapper:nth-of-type(6n+1) rect { fill: #e8d5d5 !important; stroke: #c4a5a5 !important; }
-  g.eventWrapper:nth-of-type(6n+2) rect { fill: #3a3a3a !important; stroke: #5c5c5c !important; }
-  g.eventWrapper:nth-of-type(6n+3) rect { fill: #4a6b50 !important; stroke: #6b8f71 !important; }
-  g.eventWrapper:nth-of-type(6n+4) rect { fill: #d4cfc4 !important; stroke: #b8b09a !important; }
-  g.eventWrapper:nth-of-type(6n+5) rect { fill: #c8d4c0 !important; stroke: #a8b5a0 !important; }
-  g.eventWrapper:nth-of-type(6n+6) rect { fill: #dde0c8 !important; stroke: #c5c9a8 !important; }
-
-  // 时间轴箭头线
-  g.lineWrapper line { stroke: #888 !important; }
-  
-  // 标题文字
-  text { font-family: inherit !important; }
+:root[saved-theme="dark"] {
+  --light: #2a2520;
+  --secondary: #8a6a6a;
+  --tertiary: #4a6b50;
+  --highlight: #3a2f2f;
+  --darkgray: #c8c0b8;
 }

@@ -95,3 +95,5 @@ const config: QuartzConfig = {
 }
 
 export default config
+
+Plugin.SyntaxHighlighting()
