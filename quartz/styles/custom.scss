@@ -1,3 +1,23 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// Mermaid 节点颜色覆盖
+.mermaid {
+  // 节点背景
+  .node rect, .node circle, .node polygon {
+    fill: #1e1e2e !important;
+    stroke: #89b4fa !important;
+  }
+  // 节点文字
+  .nodeLabel {
+    color: #cdd6f4 !important;
+  }
+  // 连线
+  .edgePath path {
+    stroke: #89b4fa !important;
+  }
+  // 箭头
+  marker path {
+    fill: #89b4fa !important;
+  }
+}
