@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "dumpling404.github.io/obsidian_note",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "404.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
