@@ -55,3 +55,5 @@ Grok的推理能力 → 给FSD和Optimus提供决策层
 [[特斯拉FSD研究大纲]]
 [[2026年投资逻辑转变]]
 [[生产力-生产关系-世界秩序]]
+[[技术革命与金融资本（佩雷斯）]]
+[[Ray Dalio《变化中的世界秩序》The Changing World Order]]

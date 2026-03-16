@@ -110,3 +110,8 @@ graph LR
 ---
 
 原文来源：[The Changing World Order · Ray Dalio · 2020](https://www.economicprinciples.org)
+
+## 双向链接
+
+[[AI精炼矿+物理终端=合成劳动力]]
+[[2026年投资逻辑转变]]
