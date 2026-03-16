@@ -8,16 +8,7 @@ aliases:
   - 马斯克生态飞轮
   - Muskonomy
 ---
----
-title: Muskonomy五个飞轮
-tags:
-  - 马斯克
-  - 生态系统
-  - 存疑层
-aliases:
-  - 马斯克生态飞轮
-  - Muskonomy
----
+
 
 ## 核心定位
 
